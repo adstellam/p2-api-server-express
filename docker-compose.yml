@@ -1,0 +1,6 @@
+version: "2.2"
+services:
+  api:
+      build: .
+      restart: always
+      network_mode: host
